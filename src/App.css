@@ -1,38 +1,192 @@
-.App {
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 64px;
+}
+
+body {
+  background-color: #2D2D2D;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* .container {
+
+  position: absolute;
+  width: 642px;
+  height: 109px;
+  
+  font-family: 'Handlee';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 82px;
+  line-height: 109px;
+
+  color: #FF0000;
+
+
+} */
+
+.container {
+  width: 100%;
+
+}
+
+
+
+.header {
+  
+  font-family: 'Handlee', 'cursive';
+  font-style: normal;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-decoration: underline;
+  color: red;
+  margin-top:1rem;
+}
+
+.start-page-context {
+  
+  font-family: 'Handlee', cursive;
+  font-style: normal;
   color: white;
+  text-align: center;
+  align-items: center;
+  margin-top: 2rem;
+
 }
 
-.App-link {
-  color: #61dafb;
+.start-button {
+  width: 80%;
+  background-color: #2D2D2D;
+  border: none;
+  color: white;
+  width: 20rem;
+  position: absolute;
+  left: 2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-button {
+  top: -50px;
+}
+
+.out{
+  width: 100%;
+  height: 100%;
+}
+
+.left-side {
+  width: 50%;
+  float: left;
+}
+
+/* soruların geldiği sayfa */
+
+.question-general {
+  flex-direction: row;
+
+}
+
+.up-bar {
+  color: white;
+  height: 1.5rem;
+  font-size: xx-large;
+  font-family: 'Handlee', 'cursive';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  padding-left: 14rem;
+
+  
+}
+
+.tour {
+  text-align: center;
+  align-items: center;
+  margin: 0.5rem 0.5rem;
+}
+
+
+p {
+  float: left;
+  list-style: none;
+  margin: 0.5rem ;
+  left: 3rem; 
+  text-align: right;
+
+}
+
+
+.questions {
+  width: 60%;
+  float: left;
+  color: white;
+  font-family: 'Handlee', 'cursive';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.inBoard {
+  width: 60%;
+  color: white;
+  font-family: 'Handlee', 'cursive';
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  left: 0;
+
+}
+
+.correctAnswer {
+
+}
+
+
+
+
+
+.answers {
+  display: flex;
+}
+
+/* final - sonuç sayfası */
+.title-final {
+  color: red;
+  margin: 1rem 2rem;
+  padding-top: 0;
+  font-family: 'Handlee', 'cursive';
+  font-style: normal;
+  font-size: 0.8rem;
+
+}
+
+.clear {
+  clear: both;
+}
+
+.underline{
+  margin: 0.5rem 1rem;
+}
+
+.underline_long {
+  margin-top: 0;
+}
+
+.final-page-context {
+  color: white;
+  margin: 0.1rem 2rem;
+  font-size: 0.6rem;
+  font-weight: 100;
+}
+
+.rigth-side {
+  width: 100%;
 }
